@@ -62,3 +62,47 @@ h2 {
     color: #0096c7;
     font-family: 'Amatic SC', cursive;
 }
+
+.skills {
+    display: inline-flex;
+    margin: 20px 50px
+
+}
+
+h3 {
+    margin: 20px 50px;
+    position: relative;
+    right: -250px;
+    font-size: 40px;
+    color: #0096c7;
+    font-family: 'Amatic SC', cursive;
+}
+
+.education {
+    display: inline-flex;
+    margin: 20px 50px;
+    color: #70d6ff;
+    font-family: 'Amatic SC', cursive;
+}
+
+#ga {
+    right: -250px;
+    position: relative;
+}
+h4 {
+        margin: 20px 50px;
+        position: relative;
+        right: -250px;
+        font-size: 40px;
+        color: #0096c7;
+        font-family: 'Amatic SC', cursive;
+}
+
+h5 {
+    margin: 20px 50px;
+    position: relative;
+    right: -250px;
+    font-size: 40px;
+    color: #0096c7;
+    font-family: 'Amatic SC', cursive;
+}
