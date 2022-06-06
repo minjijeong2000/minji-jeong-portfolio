@@ -1,0 +1,55 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+ul {
+    display: inline-flex;
+    margin: 20px 50px
+}
+
+li {
+    list-style: none;
+    margin: 0 20px;
+    color: #0096c7;
+    font-family: 'Amatic SC', cursive;
+}
+
+.icon {
+    width: 10px;
+}
+
+.active {
+    color:aqua !important;
+}
+
+h1 {
+    margin: 20px 50px;
+    position: relative;
+    top: -400px;
+    right: -75px;
+    font-size: 87px;
+    color:#072ac8;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#p1 {
+    margin: 20px 50px;
+    position: relative;
+    top: -400px;
+    right: -250px;
+    font-size: 40px;
+    color: #0096c7;
+    font-family: 'Amatic SC', cursive;
+}
+
+#connect {
+    margin: 20px 50px;
+    position: relative;
+    top: -400px;
+    right: -300px;
+    font-size: 20px;
+    color: #70d6ff;
+    font-family: 'Amatic SC', cursive;
+}
