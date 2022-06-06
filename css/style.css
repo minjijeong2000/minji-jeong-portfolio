@@ -1,23 +1,65 @@
-.header {
+body {
+    overflow-y: hidden;
+}
+
+.container {
     width: 100vw;
     height: 100vh;
     background-color: #ffffff;
 }
 
+.wrapper {
+    width: 100vw;
+    white-space: nowrap;
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    position: relative;
+}
+
+.section div {
+    font-size: 100px;
+    color:#ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.two {
+    background-color: blue;
+}
+
+.three {
+    background-color: yellow;
+}
+
+.four {
+    background-color: grey;
+}
+
+.five {
+    background-color: pink;
+}
+
 ul {
     display: inline-flex;
-    margin: 20px 50px
+    margin: 20px 50px;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
 li {
     list-style: none;
     margin: 0 20px;
+    font-size: 20px;
     color: #0096c7;
     font-family: 'Amatic SC', cursive;
-}
-
-.icon {
-    width: 10px;
 }
 
 .active {
@@ -27,27 +69,30 @@ li {
 h1 {
     margin: 20px 50px;
     position: relative;
-    top: -400px;
+    top: 250px;
     right: -75px;
     font-size: 87px;
     color:#072ac8;
     font-family: 'Shadows Into Light', cursive;
+    width: 100vw;
+    height: 100vh;
 }
 
 #p1 {
     margin: 20px 50px;
     position: relative;
-    top: -400px;
+    top: -300px;
     right: -250px;
     font-size: 40px;
     color: #0096c7;
     font-family: 'Amatic SC', cursive;
+    
 }
 
 #connect {
     margin: 20px 50px;
     position: relative;
-    top: -400px;
+    top: -300px;
     right: -300px;
     font-size: 20px;
     color: #70d6ff;
@@ -106,3 +151,45 @@ h5 {
     color: #0096c7;
     font-family: 'Amatic SC', cursive;
 }
+
+#contact {
+    margin: 20px 50px;
+    position: relative;
+    right: -240px;
+    font-size: 23px;
+    color: #70d6ff;
+    font-family: 'Amatic SC', cursive;
+} 
+
+/* .btn {
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    background-color: transparent;
+    transform: translateY(-50%);
+    border: none;
+}
+
+.left-btn {
+    left: 4rem;
+}
+
+.left-btn img {
+    transform: rotate(-180deg);
+}
+
+.right-btn {
+    position: absolute;
+    /* right: 0%; */
+}
+
+/* .btn img {
+    width: 4rem;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity 0.2;
+}
+
+.btn img:hover{
+    opacity: 1;
+} */ 
