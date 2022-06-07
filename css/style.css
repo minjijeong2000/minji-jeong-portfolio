@@ -131,7 +131,7 @@ h3 {
     font-family: 'Amatic SC', cursive;
 }
 
-.education {
+/* .education {
     display: inline-flex;
     margin: 20px 50px;
     width: 100vw;
@@ -139,17 +139,22 @@ h3 {
     font-size: xx-small;
     color: #70d6ff;
     font-family: 'Amatic SC', cursive;
-}
+} */
 
 #school {
+    display: inline-flex;
     position: relative;
-    font-size: xx-small;
+    font-size: x-large;
+    color: black;
+    left: -100px;
 }
 
 #ga {
-    right: -250px;
+    display: inline-flex;
+    right: -100px;
     position: relative;
-    font-size: xx-small;
+    font-size: x-large;
+    color: black;
 
 }
 h4 {
