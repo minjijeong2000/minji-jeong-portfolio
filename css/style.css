@@ -68,9 +68,9 @@ li {
 
 h1 {
     margin: 20px 50px;
-    position: relative;
-    top: 250px;
-    right: -75px;
+    position: fixed;
+    top: 200px;
+    right: -275px;
     font-size: 87px;
     color:#072ac8;
     font-family: 'Shadows Into Light', cursive;
@@ -80,9 +80,9 @@ h1 {
 
 #p1 {
     margin: 20px 50px;
-    position: relative;
-    top: -300px;
-    right: -250px;
+    position: fixed;
+    top: 350px;
+    left: 120px;
     font-size: 40px;
     color: #0096c7;
     font-family: 'Amatic SC', cursive;
@@ -91,9 +91,9 @@ h1 {
 
 #connect {
     margin: 20px 50px;
-    position: relative;
-    top: -300px;
-    right: -300px;
+    position: fixed;
+    bottom: 230px;
+    left: 160px;
     font-size: 20px;
     color: #70d6ff;
     font-family: 'Amatic SC', cursive;
@@ -103,19 +103,25 @@ h1 {
 .skills {
     display: inline-flex;
     margin: 20px 60px;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
     top: 200px;
-    right: -350px;
+    left: 50%;
     
+}
+
+#mainPic img{
+    position: relative;
+    float:right;
+    right: -400px;
 }
 
 h2 {
         display: flex;
         margin: 20px 50px;
         position: relative;
-        right: -270px;
-        top: -150px;
+        right: 50px;
+        top: -250px;
         font-size: 70px;
         color: #0096c7;
         font-family: 'Amatic SC', cursive;
