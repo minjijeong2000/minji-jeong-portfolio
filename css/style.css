@@ -1,8 +1,17 @@
-body {
-    overflow-y: hidden;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* .container {
     width: 100vw;
     height: 100vh;
     background-color: #ffffff;
@@ -11,31 +20,31 @@ body {
 .wrapper {
     width: 100vw;
     white-space: nowrap;
-}
+} */
 
-.section {
+/* .section {
     width: 100vw;
     height: 100vh;
     display: inline-block;
     position: relative;
-}
+} */
 
-.section div {
+/* .section div {
     font-size: 100px;
     color:#ffffff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-}
+}  */
 
 .two {
 
-    background-color: yellow;
+    background-color: pink;
 }
 
 .three {
-    background-color: yellow;
+    background-color: white;
 }
 
 .four {
@@ -68,9 +77,10 @@ li {
 
 h1 {
     margin: 20px 50px;
-    position: fixed;
-    top: 200px;
-    right: -275px;
+    position: relative;
+    text-align: center;
+    bottom : 600px;
+    right: 290px;
     font-size: 87px;
     color:#072ac8;
     font-family: 'Shadows Into Light', cursive;
@@ -80,9 +90,9 @@ h1 {
 
 #p1 {
     margin: 20px 50px;
-    position: fixed;
-    top: 350px;
-    left: 120px;
+    position: relative;
+    bottom: 1200px;
+    left: 190px;
     font-size: 40px;
     color: #0096c7;
     font-family: 'Amatic SC', cursive;
@@ -91,52 +101,58 @@ h1 {
 
 #connect {
     margin: 20px 50px;
-    position: fixed;
-    bottom: 230px;
-    left: 160px;
+    position: relative;
+    bottom: 1200px;
+    left: 230px;
     font-size: 20px;
     color: #70d6ff;
     font-family: 'Amatic SC', cursive;
 }
 
 
-.skills {
+.skills{
     display: inline-flex;
+    position: relative;
     margin: 20px 60px;
-    /* width: 100vw;
-    height: 100vh; */
-    top: 200px;
-    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    bottom: 1300px;
+    left: 40px;
     
 }
 
 #mainPic img{
     position: relative;
     float:right;
-    right: -400px;
+    right: -300px;
+    bottom: 1700px;
 }
 
 h2 {
-        display: flex;
-        margin: 20px 50px;
-        position: relative;
-        right: 50px;
-        top: -250px;
-        font-size: 70px;
-        color: #0096c7;
-        font-family: 'Amatic SC', cursive;
+    margin: 20px 50px;
+    position: relative;
+    text-align: center;
+    bottom : 720px;
+    right: 50px;
+    font-size: 87px;
+    color:white;
+    font-family: 'Shadows Into Light', cursive;
+    width: 100vw;
+    height: 100vh;
     
 }
 
 h3 {
-        display: flex;
-        margin: 20px 50px;
-        position: relative;
-        right: -270px;
-        top: -150px;
-        font-size: 70px;
-        color: #0096c7;
-        font-family: 'Amatic SC', cursive;
+    margin: 20px 50px;
+    position: relative;
+    text-align: center;
+    bottom : 1800px;
+    right: 50px;
+    font-size: 87px;
+    color:white;
+    font-family: 'Shadows Into Light', cursive;
+    width: 100vw;
+    height: 100vh;
 }
 /* .education {
     display: inline-flex;
@@ -153,45 +169,58 @@ h3 {
     position: relative;
     font-size: x-large;
     color: black;
-    left: -100px;
-    bottom: -100px;
+    left: 70px;
+    bottom: 2650px;
+    font-family: 'Amatic SC', cursive;
 }
 
 #ga {
     display: inline-flex;
-    right: -100px;
+    left: 480px;
     position: relative;
     font-size: x-large;
     color: black;
-    bottom: -100px;
+    bottom: 2650px;
+    font-family: 'Amatic SC', cursive;
 }
-h4 {    display: flex;
-        margin: 20px 50px;
-        position: relative;
-        right: -10px;
-        top: -220px;
-        font-size: 70px;
-        color: #0096c7;
-        font-family: 'Amatic SC', cursive;
+
+#eduPic img{
+    position: relative;
+    top: -2450px;
+    right: -540px;
+}
+h4 {
+    margin: 20px 50px;
+    position: relative;
+    text-align: center;
+    bottom : 720px;
+    right: 50px;
+    font-size: 87px;
+    color:black;
+    font-family: 'Shadows Into Light', cursive;
+    width: 100vw;
+    height: 100vh;
 }
 
 h5 {
-    display: flex;
     margin: 20px 50px;
     position: relative;
-    right: -10px;
-    top: -190px;
-    font-size: 70px;
-    color: #0096c7;
-    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    bottom : 720px;
+    right: 50px;
+    font-size: 87px;
+    color:black;
+    font-family: 'Shadows Into Light', cursive;
+    width: 100vw;
+    height: 100vh;
 }
 
 #contact {
     margin: 20px 50px;
     position: relative;
-    right: -50px;
-    top: -190px;
-    font-size: 23px;
+    bottom: 1300px;
+    left: 620px;
+    font-size: 20px;
     color: #70d6ff;
     font-family: 'Amatic SC', cursive;
 } 
@@ -216,7 +245,7 @@ h5 {
 .right-btn {
     position: absolute;
     /* right: 0%; */
-}
+
 
 /* .btn img {
     width: 4rem;
