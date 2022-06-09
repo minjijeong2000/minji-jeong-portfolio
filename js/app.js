@@ -1,5 +1,6 @@
 const skills = document.getElementById("nameSkills")
 
+console.log(skills)
 skills.addEventListener("mouseenter", function(evt){
     evt.target.style.color = "black"
     setTimeout(function() {
@@ -36,13 +37,13 @@ contactName.addEventListener("mouseenter", function(evt){
 
 // const pic = document.getElementById("pic")
 
-function imageIs () {
-    document.getElementById("pic").src = "./images/Saly-22.png"
-}
+// function imageIs () {
+//     document.getElementById("pic").src = "./images/Saly-22.png"
+// }
 
-function prevImg () {
-    document.getElementById("pic").src = "./images/White-in-Basic8.png"
-}
+// function prevImg () {
+//     document.getElementById("pic").src = "./images/White-in-Basic8.png"
+// }
 
 const music = new Audio("./audio/ghibli.mp3")
 
