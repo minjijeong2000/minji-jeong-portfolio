@@ -237,6 +237,10 @@ h6 {
     overflow-y: hidden;
 }
 
+#myWorkPg {
+    overflow-y: hidden;
+}
+
 .card .card-img-top .card-title .card-text .btn-primary{
     align-items: left;
     position: relative;
