@@ -9,10 +9,22 @@ body {
     width: 100vw;
     margin: 0;
     overflow-x: hidden;
+    display: flex;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 30px auto 100px;
+    grid-template-areas: 
+      "header"
+      "footer"
+      "content"
+      "side";
     background: linear-gradient(45deg, rgb(23, 106, 250), transparent);
     font-family: 'Pacifico', cursive;
+    /* display: flex;
+    align-items: center; */
+}
+
+#index {
+    overflow-y: hidden;
 }
 
 ul {
@@ -40,6 +52,7 @@ h1 {
     text-align: center;
     bottom : 600px;
     right: 290px;
+    /* text-align: center; */
     font-size: 87px;
     width: 100vw;
     height: 100vh;
@@ -98,7 +111,16 @@ h2 {
     bottom : 720px;
     right: 50px;
     font-size: 87px;
-    color:#072ac8;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px rgb(160, 160, 160),
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
     width: 100vw;
     height: 100vh;
     
@@ -111,7 +133,16 @@ h3 {
     bottom : 1800px;
     right: 50px;
     font-size: 87px;
-    color:#072ac8;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px rgb(160, 160, 160),
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
     width: 100vw;
     height: 100vh;
 }
@@ -146,7 +177,16 @@ h4 {
     bottom : 720px;
     right: 50px;
     font-size: 87px;
-    color:#072ac8;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px rgb(160, 160, 160),
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
     width: 100vw;
     height: 100vh;
 }
@@ -170,7 +210,16 @@ h6 {
     bottom : 720px;
     right: 50px;
     font-size: 87px;
-    color:#072ac8;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px rgb(160, 160, 160),
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
     width: 100vw;
     height: 100vh;
 }
@@ -183,6 +232,10 @@ h6 {
     font-size: 20px;
     color: aqua;
 } 
+
+#contactPg {
+    overflow-y: hidden;
+}
 
 .card .card-img-top .card-title .card-text .btn-primary{
     align-items: left;
@@ -234,15 +287,32 @@ h6 {
     font-size: 20px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     body {
-      /* tablet - two column display */
-      grid-template-columns: 1fr 2fr;
-      grid-template-rows: 50px auto 30px;
+    position: relative;
+    text-align: left;
+    background-color: #0096c7;
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px 30px auto 100px;
+    grid-template-areas: 
+      "header"
+      "footer"
+      "content"
+      "side";
+    }
+    h1 {
+        right: 10px;
+    }
+    #p1 {
+        bottom: 1050px;
+    }
+    #connect {
+        bottom: 1050px;
     }
   }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     body {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 50px auto 30px;
