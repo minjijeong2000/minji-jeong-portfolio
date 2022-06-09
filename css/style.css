@@ -247,7 +247,7 @@ h6 {
 .card-title {
     margin: auto;
     position: relative;
-    bottom: 1800px;
+    bottom: 1650px;
     text-align: left;
     right: -200px;
     font-size: 50px;
@@ -256,27 +256,28 @@ h6 {
 .card-img-top {
     margin: auto;
     position: relative;
-    bottom: 1200px;
+    bottom: 1250px;
     text-align: left;
-    right: -150px;
+    right: -200px;
 }
 
 .card-text {
     margin: auto;
     position: relative;
-    bottom: 1900px;
+    top: -2300px;
     text-align: left;
-    right: -190px;
+    right: -490px;
     font-size: 25px;
 }
 
 .btn-primary {
     margin: auto;
     position: relative;
-    bottom: 1900px;
+    bottom: 2300px;
     text-align: left;
-    right: -190px;
+    right: -490px;
     font-size: 25px;
+    background-color: black;
 }
 
 .social {

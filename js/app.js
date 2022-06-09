@@ -44,12 +44,12 @@ function prevImg () {
     document.getElementById("pic").src = "./images/White-in-Basic8.png"
 }
 
-const music = new Audio("../audio/ghibli-background.mp3")
+const music = new Audio("./audio/ghibli.mp3")
 
 const musicPlay = document.querySelector('.icon')
 
 musicPlay.addEventListener('click', function(evt) {
-    // music.volume = .20
+    music.volume = .20
     music.play()
 })
 
