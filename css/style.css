@@ -12,6 +12,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 30px auto 100px;
     background: linear-gradient(45deg, rgb(23, 106, 250), transparent);
+    font-family: 'Pacifico', cursive;
 }
 
 ul {
@@ -27,7 +28,6 @@ li {
     margin: 0 20px;
     font-size: 20px;
     color: #0096c7;
-    font-family: 'Amatic SC', cursive;
 }
 
 .active {
@@ -42,7 +42,6 @@ h1 {
     right: 290px;
     font-size: 87px;
     color:#072ac8;
-    font-family: 'Shadows Into Light', cursive;
     width: 100vw;
     height: 100vh;
 }
@@ -54,8 +53,6 @@ h1 {
     left: 190px;
     font-size: 40px;
     color: #0096c7;
-    font-family: 'Amatic SC', cursive;
-    
 }
 
 #connect {
@@ -65,7 +62,6 @@ h1 {
     left: 230px;
     font-size: 20px;
     color: #70d6ff;
-    font-family: 'Amatic SC', cursive;
 }
 
 
@@ -76,8 +72,7 @@ h1 {
     width: 100vw;
     height: 100vh;
     bottom: 1300px;
-    left: 40px;
-    
+    left: 40px; 
 }
 
 #mainPic img{
@@ -95,7 +90,6 @@ h2 {
     right: 50px;
     font-size: 87px;
     color:white;
-    font-family: 'Shadows Into Light', cursive;
     width: 100vw;
     height: 100vh;
     
@@ -109,7 +103,6 @@ h3 {
     right: 50px;
     font-size: 87px;
     color:white;
-    font-family: 'Shadows Into Light', cursive;
     width: 100vw;
     height: 100vh;
 }
@@ -121,7 +114,6 @@ h3 {
     color: black;
     left: 70px;
     bottom: 2650px;
-    font-family: 'Amatic SC', cursive;
 }
 
 #ga {
@@ -131,7 +123,6 @@ h3 {
     font-size: x-large;
     color: black;
     bottom: 2650px;
-    font-family: 'Amatic SC', cursive;
 }
 
 #eduPic img{
@@ -147,7 +138,6 @@ h4 {
     right: 50px;
     font-size: 87px;
     color:black;
-    font-family: 'Shadows Into Light', cursive;
     width: 100vw;
     height: 100vh;
 }
@@ -160,7 +150,6 @@ h5 {
     right: 50px;
     font-size: 87px;
     color:black;
-    font-family: 'Shadows Into Light', cursive;
     width: 100vw;
     height: 100vh;
 }
@@ -172,7 +161,6 @@ h5 {
     left: 620px;
     font-size: 20px;
     color: #70d6ff;
-    font-family: 'Amatic SC', cursive;
 } 
 
 .card .card-img-top .card-title .card-text .btn-primary{
@@ -239,35 +227,3 @@ h5 {
         grid-template-rows: 50px auto 30px;
     }
 }
-/* .btn {
-    position: fixed;
-    z-index: 100;
-    top: 50%;
-    background-color: transparent;
-    transform: translateY(-50%);
-    border: none;
-}
-
-.left-btn {
-    left: 4rem;
-}
-
-.left-btn img {
-    transform: rotate(-180deg);
-}
-
-.right-btn {
-    position: absolute;
-    /* right: 0%; */
-
-
-/* .btn img {
-    width: 4rem;
-    opacity: 0.4;
-    cursor: pointer;
-    transition: opacity 0.2;
-}
-
-.btn img:hover{
-    opacity: 1;
-} */ 
