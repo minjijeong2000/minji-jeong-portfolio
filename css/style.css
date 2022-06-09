@@ -41,9 +41,18 @@ h1 {
     bottom : 600px;
     right: 290px;
     font-size: 87px;
-    color:#072ac8;
     width: 100vw;
     height: 100vh;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px rgb(160, 160, 160),
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
 }
 
 #p1 {
@@ -61,7 +70,7 @@ h1 {
     bottom: 1200px;
     left: 230px;
     font-size: 20px;
-    color: #70d6ff;
+    color: aqua;
 }
 
 
@@ -89,7 +98,7 @@ h2 {
     bottom : 720px;
     right: 50px;
     font-size: 87px;
-    color:white;
+    color:#072ac8;
     width: 100vw;
     height: 100vh;
     
@@ -102,7 +111,7 @@ h3 {
     bottom : 1800px;
     right: 50px;
     font-size: 87px;
-    color:white;
+    color:#072ac8;
     width: 100vw;
     height: 100vh;
 }
@@ -137,7 +146,7 @@ h4 {
     bottom : 720px;
     right: 50px;
     font-size: 87px;
-    color:black;
+    color:#072ac8;
     width: 100vw;
     height: 100vh;
 }
@@ -149,7 +158,19 @@ h5 {
     bottom : 720px;
     right: 50px;
     font-size: 87px;
-    color:black;
+    color: #0096c7;
+    width: 100vw;
+    height: 100vh;
+}
+
+h6 {
+    margin: 20px 50px;
+    position: relative;
+    text-align: center;
+    bottom : 720px;
+    right: 50px;
+    font-size: 87px;
+    color:#072ac8;
     width: 100vw;
     height: 100vh;
 }
@@ -160,7 +181,7 @@ h5 {
     bottom: 1300px;
     left: 620px;
     font-size: 20px;
-    color: #70d6ff;
+    color: aqua;
 } 
 
 .card .card-img-top .card-title .card-text .btn-primary{
