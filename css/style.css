@@ -9,50 +9,9 @@ body {
     width: 100vw;
     margin: 0;
     overflow-x: hidden;
-}
-
-/* .container {
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff;
-}
-
-.wrapper {
-    width: 100vw;
-    white-space: nowrap;
-} */
-
-/* .section {
-    width: 100vw;
-    height: 100vh;
-    display: inline-block;
-    position: relative;
-} */
-
-/* .section div {
-    font-size: 100px;
-    color:#ffffff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}  */
-
-.two {
-
-    background-color: pink;
-}
-
-.three {
-    background-color: white;
-}
-
-.four {
-    background-color: grey;
-}
-
-.five {
-    background-color: pink;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 30px auto 100px;
+    background: linear-gradient(45deg, rgb(23, 106, 250), transparent);
 }
 
 ul {
@@ -154,15 +113,6 @@ h3 {
     width: 100vw;
     height: 100vh;
 }
-/* .education {
-    display: inline-flex;
-    margin: 20px 50px;
-    width: 100vw;
-    height: 100vh;
-    font-size: xx-small;
-    color: #70d6ff;
-    font-family: 'Amatic SC', cursive;
-} */
 
 #school {
     display: inline-flex;
@@ -225,6 +175,70 @@ h5 {
     font-family: 'Amatic SC', cursive;
 } 
 
+.card .card-img-top .card-title .card-text .btn-primary{
+    align-items: left;
+    position: relative;
+    size: medium;
+
+}
+
+.card-title {
+    margin: auto;
+    position: relative;
+    bottom: 1800px;
+    text-align: left;
+    right: -200px;
+    font-size: 50px;
+}
+
+.card-img-top {
+    margin: auto;
+    position: relative;
+    bottom: 1200px;
+    text-align: left;
+    right: -150px;
+}
+
+.card-text {
+    margin: auto;
+    position: relative;
+    bottom: 1900px;
+    text-align: left;
+    right: -190px;
+    font-size: 25px;
+}
+
+.btn-primary {
+    margin: auto;
+    position: relative;
+    bottom: 1900px;
+    text-align: left;
+    right: -190px;
+    font-size: 25px;
+}
+
+.social {
+    margin: auto;
+    position: relative;
+    bottom: 1300px;
+    left: 580px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+      /* tablet - two column display */
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 50px auto 30px;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    body {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 50px auto 30px;
+    }
+}
 /* .btn {
     position: fixed;
     z-index: 100;
