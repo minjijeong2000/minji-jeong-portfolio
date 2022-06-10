@@ -37,21 +37,21 @@ contactName.addEventListener("mouseenter", function(evt){
 
 const pic = document.getElementById("picture")
 
-function imageIs () {
-    document.getElementById("picture").src = "./images/Saly-19.png"
-}
+// function imageIs () {
+//     document.getElementById("picture").src = "./images/Saly-19.png"
+// }
 
-function prevImg () {
-    document.getElementById("picture").src = "./images/Saly-10.png"
-}
+// function prevImg () {
+//     document.getElementById("picture").src = "./images/Saly-10.png"
+// }
 
 // let button = document.getElementById('button')
 // let bye = document.getElementById('bye')
 
-function msg() {
-    let msg ='Bye! See you again!'
-    alert(msg)
-}
+// function msg() {
+//     let msg ='Bye! See you again!'
+//     alert(msg)
+// }
 
 const music = new Audio("./audio/ghibli.mp3")
 
