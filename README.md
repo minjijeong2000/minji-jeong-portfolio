@@ -1,6 +1,6 @@
 # minji-jeong-portfolio
 
-<img src="images/my-website.png>
+![] (images/my-website.png)
 
 
 My personal portfolio includes home, resume, my work, and contact page.
