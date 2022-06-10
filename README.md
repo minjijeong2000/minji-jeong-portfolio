@@ -16,6 +16,10 @@ The goal was to create a website with well formatted that is mobile friendly, ni
 * HTML
 * git
 
+## Credits
+* Figma - used 'Saly - 3D Illustration Pack' images
+* Bootstrap
+
 ## Recent Changes
 
 * Format my website properly/mobile friendly
