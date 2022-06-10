@@ -1,6 +1,6 @@
 # minji-jeong-portfolio
 
-![Getting Started] (./images/my website.png)
+![](images/my website.png)
 
 My personal portfolio includes home, resume, my work, and contact page.
 The goal was to create a website with well formatted that is mobile friendly, nice and clean look, brings to right directory, and provides all the information that is necessary. It introduces my education background, skills, and contact info.
