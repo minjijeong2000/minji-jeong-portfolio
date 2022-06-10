@@ -47,31 +47,33 @@ contactName.addEventListener("mouseenter", function(evt){
 
 const music = new Audio("./audio/ghibli.mp3")
 
-const musicPlay = document.querySelector('.icon')
+const musicPlay = document.querySelector('#pic')
 
 musicPlay.addEventListener('click', function(evt) {
     music.volume = .20
     music.play()
 })
 
-let project = {
-    title:'tic-tac-toe',
-    deployment: 'https://ttt-weekend-minji.netlify.app',
-    image: './images/tic-tac-toe.png',
-    github: 'https://github.com/minjijeong2000/ttt-weekend',
-    description: 'Want to play tic-tac-toe? Click the link below!'
-}
+import { projectData } from "./work.js"
+
+const cardContainer = document.getElementById('card-container')
+
 
 let projectMarkup = projectData.map(project => 
     `
     <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="${project.image}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">${project.title}</h5>
+        <p class="card-text">${project.description}</p>
+        <div>
+        <a href="${project.gihub}" class="btn btn-primary">GitHub</a>
+        <a href="${project.deployment}" class="btn btn-primary">Deployment</a>
       </div>
+    </div>
     </div>
     ` 
 ).join('')
+
+cardContainer.innerHTML = projectMarkup
 
