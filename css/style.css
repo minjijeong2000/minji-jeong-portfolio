@@ -287,9 +287,9 @@ h6 {
     overflow-y: hidden;
 }
 
-#myWorkPg {
+/* #myWorkPg {
     overflow-y: hidden;
-}
+} */
 
 .card-title {
     /* margin: auto;
@@ -397,10 +397,24 @@ h6 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    /* overflow: scroll; */
+    height: 100%;
 }
 .page4 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+.card {
+    display: flex;
+    
+}
+
+#card-container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    /* overflow: scroll; */
+    gap: 20px;
 }
