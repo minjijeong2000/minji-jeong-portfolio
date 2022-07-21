@@ -16,7 +16,9 @@ let projectData = [{
 {
     title: 'Code-Ipedia',
     deployment: 'https://code-ipedia.netlify.app/',
-    image: ''
+    image: './images/code-ipedia.png',
+    github:'https://github.com/minjijeong2000/code-ipedia-front-end/tree/codeList',
+    description:'Check out my first ever group project! Click the link below!'
 }]
 
 export {
