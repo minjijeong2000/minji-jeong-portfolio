@@ -12,6 +12,11 @@ let projectData = [{
     github: 'https://github.com/minjijeong2000/minji-jeong-application',
     description: 'Want to check out my marvel app? Click the link below!'
 
+},
+{
+    title: 'Code-Ipedia',
+    deployment: 'https://code-ipedia.netlify.app/',
+    image: ''
 }]
 
 export {
