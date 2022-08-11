@@ -19,6 +19,13 @@ let projectData = [{
     image: './images/code-ipedia.png',
     github:'https://github.com/minjijeong2000/code-ipedia-front-end/tree/codeList',
     description:'Check out my first ever group project! Click the link below!'
+},
+{
+    title: 'Animal Crossing Collector',
+    deployment: 'https://animal-crossing-collector.herokuapp.com/',
+    image: './images/animal-crossing-collector.png',
+    github: 'https://github.com/minjijeong2000/animal-crossing-collector',
+    description: 'Check out my Animal Crossing app to entertain yourself!'
 }]
 
 export {
